@@ -1,0 +1,80 @@
+<html lang="pt-br"><head>
+		<meta charset="UTF-8">
+		<title>Seu Barriga - Contas</title>
+		<!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	</head>
+
+	<body class="body-index">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="/">Seu Barriga</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="navbar-collapse collapse" id="navbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="/">Home</a></li>
+                        <li class="dropdown">
+                            <a href="/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contas <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/addConta">Adicionar</a></li>
+                                <li class="active"><a href="/contas">Listar</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="/movimentacao">Criar Movimentação</a></li>
+                        <li><a href="/extrato">Resumo Mensal</a></li>
+                        <li><a href="/logout">Sair</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        
+
+        
+        
+        <div class="col-lg-2"></div>
+        <table id="tabelaContas" class="col-lg-8">
+			<thead>
+                <tr>
+                    <th>Conta</th>
+                    <th>Ações</th>
+                </tr>
+			</thead>
+            <tbody>
+                
+                    <tr>
+                        <td>vae</td>
+                        <td><a href="/editarConta?id=95438"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span></a> <a href="/removerConta?id=95438"><span class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span></a></td>
+                    </tr>
+                
+                    <tr>
+                        <td>Teste</td>
+                        <td><a href="/editarConta?id=95439"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span></a> <a href="/removerConta?id=95439"><span class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span></a></td>
+                    </tr>
+                
+                    <tr>
+                        <td>Testa</td>
+                        <td><a href="/editarConta?id=95440"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span></a> <a href="/removerConta?id=95440"><span class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span></a></td>
+                    </tr>
+                
+                    <tr>
+                        <td>Testi</td>
+                        <td><a href="/editarConta?id=95441"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span></a> <a href="/removerConta?id=95441"><span class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span></a></td>
+                    </tr>
+                
+            </tbody>
+		</table>
+        <div class="col-lg-2"></div>
+	
+</body></html>
